@@ -1,4 +1,4 @@
-"use client";
+"use server";
 import { Button } from "flowbite-react";
 import Image from "next/image";
 import { useState } from "react";
