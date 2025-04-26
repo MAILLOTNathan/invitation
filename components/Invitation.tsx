@@ -25,13 +25,13 @@ export default function Invitation() {
       {!opened ? (
         <span onClick={handleClick} className="">
           <Image
-            src={`${prefix}/floral-frame.svg`}
+            src={`invitation/floral-frame.svg`}
             alt="Floral Frame"
             width={500}
             height={500}
           />
           <Image
-            src={`${prefix}/cross.png`}
+            src={`invitation/cross.png`}
             alt="Cross"
             width={100}
             height={100}
@@ -47,7 +47,7 @@ export default function Invitation() {
       ) : (
         <span className="animate-fade-in flex flex-col items-center justify-center space-y-8 opacity-0 transition-opacity duration-500 ease-in-out">
           <Image
-            src={`${prefix}/invitation.png`}
+            src={`invitation/invitation.png`}
             alt="Invitation"
             width={500}
             height={500}
