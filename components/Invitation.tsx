@@ -4,7 +4,7 @@ import { Button } from "flowbite-react";
 import Image from "next/image";
 import { useState } from "react";
 
-// const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+import { prefix } from "@/prefix";
 
 export default function Invitation() {
   const [opened, setOpened] = useState(false);
@@ -25,13 +25,13 @@ export default function Invitation() {
       {!opened ? (
         <span onClick={handleClick} className="">
           <Image
-            src={`invitation/floral-frame.svg`}
+            src={`${prefix}/floral-frame.svg`}
             alt="Floral Frame"
             width={500}
             height={500}
           />
           <Image
-            src={`invitation/cross.png`}
+            src={`${prefix}/cross.png`}
             alt="Cross"
             width={100}
             height={100}
@@ -47,7 +47,7 @@ export default function Invitation() {
       ) : (
         <span className="animate-fade-in flex flex-col items-center justify-center space-y-8 opacity-0 transition-opacity duration-500 ease-in-out">
           <Image
-            src={`invitation/invitation.png`}
+            src={`${prefix}/invitation.png`}
             alt="Invitation"
             width={500}
             height={500}
