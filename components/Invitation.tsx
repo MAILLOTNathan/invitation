@@ -47,7 +47,7 @@ export default function Invitation() {
       ) : (
         <span className="animate-fade-in flex flex-col items-center justify-center space-y-8 opacity-0 transition-opacity duration-500 ease-in-out">
           <Image
-            src={`${prefix}/invitation.png`}
+            src={`${prefix}/invitation-1.png`}
             alt="Invitation"
             width={500}
             height={500}
