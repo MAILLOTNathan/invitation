@@ -4,7 +4,7 @@ import { Button } from "flowbite-react";
 import Image from "next/image";
 import { useState } from "react";
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+// const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Invitation() {
   const [opened, setOpened] = useState(false);
