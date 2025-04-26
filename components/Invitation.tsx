@@ -41,7 +41,7 @@ export default function Invitation() {
             className="absolute top-1/2 left-1/2 z-10 -translate-x-1/10 -translate-y-1/2 transform text-right text-3xl font-bold text-[#C79959] sm:text-5xl"
             style={{ fontFamily: "Brush Script, cursive" }}
           >
-            Invitation
+            Invitation {prefix}
           </h2>
         </span>
       ) : (
